@@ -16,7 +16,7 @@ class AdminSeeder extends Seeder
     {
         User::create([
             'name' => 'Admin IT KPI',
-            'username' => 'admintitpi',
+            'username' => 'adminitkpi',
             'email' => 'adminit@kpi.pertamina.com',
             'password' => Hash::make('magangkpi25'),
             'role' => 'admin',
